@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">Bloom</string>
+    <string name="bloom_logo">Bloom logo</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_drawer_navigatable">DrawerNavigatableActivity</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+    <string name="hello_blank_fragment">teste</string>
+
+
+    <string name="informacional_detalhe_titulo_depressao">O QUE É DEPRESSÃO?</string>
+    <string name="informacional_detalhe_titulo_tcc">O QUE É TCC?</string>
+    <string name="informacional_detalhe_titulo_diagnostico">DIAGNÓSTICO</string>
+    <string name="informacional_detalhe_titulo_sintomas">SINTOMAS E TRATAMENTO</string>
+    <string name="informacional_detalhe_titulo_bloom">BLOOM</string>
+    <string name="informacional_detalhe_titulo_referencias">REFERÊNCIAS</string>
+
+    <string name="informacional_detalhe_texto_depressao">A depressão é um transtorno mental que pode provocar sintomas
+        emocionais, cognitivos, físicos e comportamentais, que podem ocorrer em qualquer idade, sexo
+        ou grupo social. As formas que a doença se apresenta depende da singularidade de cada indivíduo,
+        podendo ir de profunda tristeza e desesperança a irritabilidade e frustração. Os sintomas mais
+        recorrentes são a insônia, fadiga, perda de interesse ou prazer, mudanças no apetite e
+        sentimentos de desvalia e culpa. A intervenção médica é crucial para a recuperação do paciente
+        e com isso a Terapia Cognitivo Comportamental pode vir a ser uma possibilidade de tratamento,
+        pois consiste em ensinar o paciente a modificar seus pensamentos automáticos e negativos que
+        afetam as emoções e comportamentos do mesmo, para enxergar as situações de modo mais
+        realístico e menos pessimista.</string>
+    <string name="informacional_detalhe_texto_tcc">A terapia cognitivo comportamental (TCC) é um tipo de tratamento para a
+        depressão que consiste em ensinar o paciente a modificar seus pensamentos automáticos e
+        negativos que afetam as emoções e comportamentos do mesmo,  de modo a ver as situações de
+        modo menos pessimista. A pessoa que apresenta depressão tem uma visão negativa de si mesmo e
+        do mundo, incluindo atividades, trabalhos e relações, por consequência acaba tendo uma visão
+        pessimista do futuro. O paciente acaba antecipando resultados desfavoráveis para seus
+        problemas, levando isso de uma forma absolutista e inflexível, tornando seus problemas piores
+        do que realmente são, sem considerar os verdadeiros fatos. Com a utilização da TCC o paciente
+        irá perceber suas ideias distorcidas, reconhecer os pensamentos negativos e procurar
+        pensamentos alternativos que se aproximem mais da realidade.</string>
+    <string name="informacional_detalhe_texto_diagnostico">De acordo com o DSM V, para o diagnóstico da depressão, estarão
+        presentes na maioria dos dias por um período de duas semanas, pelo menos 5 sintomas que
+        representam mudança em relação ao funcionamento anterior, no qual pelo menos um dos sintomas
+        será humor deprimido ou perda de interesse ou prazer. Outros sintomas mais comuns são: Perda
+        ou ganho significativo de apetite ou peso sem estar fazendo dieta; Insônia ou hipersonia;
+        Agitação ou retardo psicomotor; Fadiga ou perda de energia; Sentimentos de inutilidade e
+        culpa excessiva ou inapropriada; Capacidade diminuída para pensar ou se concentrar, ou
+        indecisão; Pensamentos recorrentes de morte, ideação suicida, tentativa de suicídio ou plano
+        específico para cometer suicídio;</string>
+    <string name="informacional_detalhe_texto_sintomas">O paciente deprimido geralmente apresenta sintomas constantes por
+        um período de, no mínimo, duas semanas integrais, que geralmente se manifestam de forma
+        emocional, cognitiva, física e comportamental. Estes sintomas causam sofrimento clinicamente
+        significativo ou prejuízo no funcionamento social, profissional ou em outras áreas importantes
+        da vida do indivíduo. Um episódio depressivo maior é essencialmente caracterizado pelo humor
+        deprimido, que é distinto de outras vertentes psicológicas por ser mais persistente, estritamente
+        incapaz de antecipar felicidade ou prazer e não está ligado a pensamentos ou preocupações
+        específicas. Dentre as manifestações emocionais, a grande perda de interesse ou prazer,
+        sentimento de inutilidade, culpa inapropriada e ideações suicidas recorrentes, são frequentes.
+        Já as apresentações clínicas, que implicam em prejuízos físicos, possuem um amplo leque de
+        meios expressivos, como por exemplo a insônia ou hipersonia, a redução ou aumento de apetite,
+        agitação ou retardo psicomotor, fadiga, indecisão e déficit na concentração. Para o início do
+        tratamento da depressão é de extrema importância uma avaliação médica e diagnóstico realizado
+        por um profissional da área clínica e psicológica. O tratamento depende do tipo e estágio da
+        depressão que o paciente apresenta e somente um profissional poderá orientar a maneira mais
+        indicada para a recuperação, seja por meio farmacoterápico, psicológico ou outro. Uma das
+        possibilidades de tratamento é a Terapia Cognitivo-Comportamental que tem como objetivo
+        perceber suas ideias distorcidas, reconhecer os pensamentos negativos e procurar pensamentos
+        alternativos que se aproximem mais da realidade.</string>
+    <string name="informacional_detalhe_texto_bloom">O aplicativo Bloom, consiste em um sistema com o objetivo de auxiliar
+        notratamento  de  pessoas  com  depressão,  no  qual  ele  utiliza  técnicas  e  teorias
+        baseadas na  Terapia  Cognitivo-Comportamental,  a  qual  procura  identificar pensamentos e
+        como  tais  afetam  as  emoções  e  comportamentos  que  levam  a depressão.  A  categoria
+        utilizada  da  TCC  é  o  Modelo  ABC,  que  tem  como  objetivo, mostrar  ao   paciente
+        como  os  pensamentos,  conceitos  formados  e crenças podem interferir nas emoções.  Esta
+        esfera da TCC atua com as respostas obtidas do paciente a partir de tópicos idealizados sobre
+        um possível evento causador da depressão. O  Modelo  ABC  é  dividido  em  outras  três partes,
+        que  é  aconselhável que sejam  desenvolvidas  em  ordem  e  no  momento  correto,  de  acordo
+        com  o consenso entre o terapeuta e o paciente. Cada  parte  é  expressada  de  uma  forma,
+        o  Registro  de  Pensamentos Negativos representa o evento que desencadeia a reação depressiva;
+        o Registro de  Pensamentos  Diários  representa como  o  evento  foi  interpretado  através
+        de crenças,  pensamentos  e  imagens;  o  Registro  de  Crenças  são  as  emoções  e
+        comportamentos originados pelo pressuposto evento. Com  base  nesses  meios  o  aplicativo
+        busca  facilitar  ao  paciente  sua recuperação com conclusões próprias a partir de métodos
+        instigantes. </string>
+
+
+    <string name="informacional_detalhe_texto_referencias">AMERICAN PSYCHIATRY ASSOCIATION. Diagnostic and Statistical
+        Manual of Mental disorders - DSM-5. 5. ed. Washington: American Psychiatric Association,
+        2013
+
+        \n\n\nCANALE A., FURLAN M.M.D.P. Depressão. Arq Mudi. 2006;10(2):23-31.
+        \nDisponível em: http://periodicos.uem.br/ojs/index.php/ArqMudi/article/view/19991/10844;
+        Acesso em: 04 de março de 2017.
+
+        \n\n\nBeck, A.T.; Rush, A. J.; Shaw, B.F.; Emery G. (1997). Terapia
+        Cognitiva da Depressão. Porto Alegre, Artes Médicas, 1997.\nDisponível em:
+        http://www.scielo.br/pdf/rbp/v30s2/a04v30s2.pdf; Acesso em: 11 de março de 2017.
+
+        \n\n\nDEL PORTO. Depressão: Causas e Tratamento. Revista Brasileira de
+        Psiquiatria. São Paulo, v.21. 1999. \nDisponível em: http://www.scielo.br/pdf/rbp/v21s1/v21s1a03.pdf;
+        Acesso em: 04 de março de 2017.
+
+        \n\n\nKnapp, Paulo, Beck, Aaron T.  Fundamentos, modelos conceituais,
+        aplicações e pesquisa da terapia cognitiva. Revista Brasileira de Psiquiatria, 30(Suppl. 2),
+        s54-s64. 2008. \nDisponível em: http://www.scielo.br/pdf/rbp/v30s2/a02v30s2.pdf;
+        Acesso em: 11 de março de 2017.
+
+        \n\n\nPENNEBAKER, W; NIEDERHOFFER, G. Sharing Ones Story: On the
+        Benefits of Writing or Talking About Emotional Experience. The Oxford Handbook of Positive
+        Psychology, v.2. 2009. \nDisponível em: http://www.oxfordhandbooks.com/view/10.1093/oxfordhb/
+        9780195187243.001.0001/oxfordhb-9780195187243-e-059; Acesso em: 04 de março de 2017.</string>
+    <string name="crenca">CRENÇA</string>
+    <string name="diario_completo">DIÁRIO COMPLETO</string>
+    <string name="diario_pensamentos">DIÁRIO DE PENSAMENTOS</string>
+    <string name="escrita_expressiva">ESCRITA EXPRESSIVA</string>
+    <string name="informacional">INFORMACIONAL</string>
+    <string name="emergencia">EMERGENCIA</string>
+    <string name="botao_crencas">Botão de crenças</string>
+    <string name="botao_diario_completo">Botão do Diário Completo</string>
+    <string name="botao_diario_pensamentos">Botão Diário de Pensamentos</string>
+    <string name="botao_escrita_expressiva">Botão da Escrita Expressiva</string>
+    <string name="botao_informacional">Botão do Informacional</string>
+    <string name="botao_emergencia">Botão de emergencia</string>
+    <string name="icone_de_reticencias">icone de reticencias</string>
+    <string name="botao_depressao">Botão para ler mais sobre depressão</string>
+    <string name="botao_tcc">Botão para ler mais sobre a terapia cognitiva comportamental</string>
+    <string name="botao_diagnostico">Botão para ler mais sobre o diagnósttico da depressão</string>
+    <string name="botao_sintomas">Botão para ler mais sobre os sintomas da depressão</string>
+    <string name="botao_bloom">Botão para ler mais sobre o aplicativo Bloom</string>
+    <string name="botao_referencias">Botão para ler mais sobre as referências utilizadas no aplicativo</string>
+    <string name="emergencia_discagem_rapida">DISCAGEM RÁPIDA</string>
+    <string name="emeregencia_mensagem">MENSAGEM</string>
+    <string name="emergencia_contatos">CONTATOS</string>
+    <string name="escrita_expressiva_titulo_hint">TÍTULO</string>
+    <string name="escrita_expressiva_texto_hint">DIGITE ALGO...</string>
+    <string name="escrita_expressiva_botao_cancelar_remover">Botão de remover ou cancelar escrita @string/botao_escrita_expressivaiva</string>
+    <string name="escrita_expressiva_botao_salvar">Botão de salvar a escrita @string/botao_escrita_expressivaiva</string>
+    <string name="contatos_lista_de_contatos">LISTA DE CONTATOS</string>
+    <string name="contatos_icone_esquilo">Icone de um esquilo</string>
+    <string name="crencas_centrais_1"><b>sentir-se no direito:</b> o mundo e o futuro são injustos; as pessoas deveriam ser legais comigo e satisfazer minhas necessidades; não deveria ter que me esforçar para conseguir o que quero;</string>
+    <string name="crencas_centrais_2"><b>insignificante:</b> eu não sou importante; todos são mais importantes do que eu; minhas necessidades não têm importância para o mundo;</string>
+    <string name="crencas_centrais_3"><b>não ser bom o suficiente:</b> eu não sou bom o suficiente; as pessoas vão perceber como eu não sou boa e vão me julgar negativamente; serei rejeitado e não me encaixo no mundo;</string>
+    <string name="crencas_centrais_4"><b>incapaz de ser amado:</b> sou incapaz de ser amado; as pessoas me rejeitarão a menos que eu faça o que elas queiram; eu não tenho ninguém no mundo e vou acabar sozinho;</string>
+    <string name="crencas_centrais_5"><b>indigno:</b> eu não mereço as coisas boas que acontecem; tudo de bom será tirado de mim; as outras pessoas são melhores do que eu; o mundo não é seguro;</string>
+    <string name="crencas_centrais_6"><b>vulnerável:</b> sou vulnerável; não posso confiar em ninguém; as outras pessoas vão me magoar e se aproveitar de mim; o mundo é um lugar perigoso;</string>
+
+    <string-array name="crencas_centrais">
+        <item>sentir-se no direito:o mundo e o futuro são injustos; as pessoas deveriam ser legais comigo e satisfazer minhas necessidades; não deveria ter que me esforçar para conseguir o que quero;</item>
+        <item>insignificante: eu não sou importante; todos são mais importantes do que eu; minhas necessidades não têm importância para o mundo;</item>
+        <item>>não ser bom o suficiente: eu não sou bom o suficiente; as pessoas vão perceber como eu não sou boa e vão me julgar negativamente; serei rejeitado e não me encaixo no mundo;</item>
+        <item>incapaz de ser amado: sou incapaz de ser amado; as pessoas me rejeitarão a menos que eu faça o que elas queiram; eu não tenho ninguém no mundo e vou acabar sozinho;</item>
+        <item>indigno: eu não mereço as coisas boas que acontecem; tudo de bom será tirado de mim; as outras pessoas são melhores do que eu; o mundo não é seguro;</item>
+        <item>vulnerável: sou vulnerável; não posso confiar em ninguém; as outras pessoas vão me magoar e se aproveitar de mim; o mundo é um lugar perigoso;</item>
+    </string-array>
+
+    <string-array name="crencas_intermediarias">
+        <item>Qual foi a situação?</item>
+        <item>Quais os pensamentos negativos que passou pela sua mente?</item>
+        <item>Como você achava que as outras pessoas poderiam vê-lo?</item>
+        <item>O que de ruim você previu que aconteceria?</item>
+        <item>Que sinais você percebeu que te fizeram temer que o que você descreveu de ruim aconteceria? Você ficou procurando esses “sinais de perigo” ou eles eram claros?</item>
+        <item>Você costuma ficar procurando por esses sinais no dia-a-dia?</item>
+        <item>O que você espera confirmar com esse comportamento?</item>
+        <item>O que você faz para tentar evitar que as coisas que teme realmente aconteçam?</item>
+        <item>O que isso te faz acreditar? Qual a sua crença sobre isso?</item>
+    </string-array>
+
+    <string name="crencas_intermediarias_contagem">(%1$d / 9)</string>
+    <string name="crencas_centrais"> <u>CRENÇAS CENTRAIS </u></string>
+    <string name="title_activity_crenca_detalhes">CrencaDetalhes</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

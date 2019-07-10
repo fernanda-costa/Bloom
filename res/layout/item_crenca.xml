@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/crenca_item_data_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/colorFonte"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/crenca_item_situacao_textView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="24/05/2019" />
+
+        <TextView
+            android:id="@+id/crenca_item_situacao_textView"
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/colorFonte"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/crenca_detalhes_centrais_textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/crenca_item_data_textView"
+            app:layout_constraintTop_toBottomOf="@+id/crenca_item_data_textView"
+            tools:text="Situação" />
+
+        <TextView
+            android:id="@+id/crenca_detalhes_centrais_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/crencas_centrais"
+            android:textColor="#5f9ea0"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/crenca_item_situacao_textView"
+            app:layout_constraintTop_toBottomOf="@+id/crenca_item_situacao_textView" />
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>

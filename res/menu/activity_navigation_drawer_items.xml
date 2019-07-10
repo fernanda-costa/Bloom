@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_contatos"
+            android:title="Contatos" />
+        <item
+            android:id="@+id/nav_crenca"
+            android:title="Crenças" />
+        <item
+            android:id="@+id/nav_diarioCompleto"
+            android:title="Diário Completo" />
+        <item
+            android:id="@+id/nav_diarioPensamentos"
+            android:title="Diário de Pensamentos" />
+        <item
+            android:id="@+id/nav_emergencia"
+            android:title="Emergencia" />
+        <item
+            android:id="@+id/nav_escritaExpressiva"
+            android:title="Escrita Expressiva" />
+        <item
+            android:id="@+id/nav_informacional"
+            android:title="Informacional" />
+        <item
+            android:id="@+id/nav_sobreFuncionalidades"
+            android:title="Sobre Funcionalidades" />
+    </group>
+
+
+</menu>

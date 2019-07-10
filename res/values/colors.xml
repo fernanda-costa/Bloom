@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e3dfd3</color>
+    <color name="colorPrimaryDark">#F1797A</color>
+    <color name="colorAccent">#838382</color>
+    <color name="colorBackground">#f6eade</color>
+    <color name="colorFonte">#FF897C7C</color>
+    <color name="colorTitulo">#a89e9e</color>
+    <color name="colorBackgroundSplashScreen">#f6eade</color>
+    <color name="colorFab">#f1797a</color>
+
+</resources>

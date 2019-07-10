@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.CrencasIntermediariasActivity"
+    android:background="@color/colorBackground">
+
+<TextView
+        android:id="@+id/crencas_intermediarias_pergunta_textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/crencas_intermediarias_resposta_editText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Que sinais você percebeu que te fizeram temer que o que você descreveu de ruim aconteceria? Você ficou procurando esses “sinais de perigo” ou eles eram claros?" />
+
+    <EditText
+        android:id="@+id/crencas_intermediarias_resposta_editText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/edit_text_arredondado_branco"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Digite algo aqui..."
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/crencas_intermediarias_contagem_textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/crencas_intermediarias_pergunta_textView" />
+
+    <TextView
+        android:id="@+id/crencas_intermediarias_contagem_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="(1 / 9)" />
+
+    <ImageButton
+        android:id="@+id/crencas_intermediarias_proximo_imageButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@null"
+        android:padding="10dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@id/crencas_intermediarias_contagem_textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/crencas_intermediarias_contagem_textView"
+        app:srcCompat="@drawable/ic_botao_proximo"
+        />
+
+</android.support.constraint.ConstraintLayout>

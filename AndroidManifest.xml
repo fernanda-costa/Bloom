@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="br.com.fernandacosta.bloom">
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bloom"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_informacional_bloom"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ApplicationConfig">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activity.NavigationDrawerActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.activity.InformacionalDetalheActivity" />
+        <activity
+            android:name=".ui.activity.SplashScreenActivity"
+            android:theme="@style/AppCompat.TelaCheia" />
+        <activity android:name=".ui.activity.AddAlterarApagarEscritaEspressiva" />
+        <activity android:name=".ui.activity.CrencasCentraisActivity" />
+        <activity android:name=".ui.activity.CrencasIntermediariasActivity" />
+        <activity android:name=".ui.activity.ListaCrencaActivity" />
+        <activity
+            android:name=".ui.activity.CrencaDetalhes"
+            android:label="@string/title_activity_crenca_detalhes"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
